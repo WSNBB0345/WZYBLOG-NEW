@@ -6,13 +6,9 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -22,8 +18,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        submodules: false
-        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -39,14 +34,16 @@ jobs:
         npx hexo clean
         npx hexo generate
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
-
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: ./public
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
+    - name: Deploy to main branch
+      run: |
+        # Copy generated files to root
+        cp -r public/* .
+        # Remove source files to avoid conflicts
+        rm -rf source/ themes/ scaffolds/ _config*.yml package*.json node_modules/
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # Add and commit
+        git add .
+        git diff --staged --quiet || git commit -m "Auto-deploy: Update blog content"
+        git push
