@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WZYBLOG</title>
+  
+  <subtitle>分享技术、生活和思考</subtitle>
+  <link href="https://wsnbb0345.github.io/WZYBLOG/atom.xml" rel="self"/>
+  
+  <link href="https://wsnbb0345.github.io/WZYBLOG/"/>
+  <updated>2025-09-14T14:54:54.598Z</updated>
+  <id>https://wsnbb0345.github.io/WZYBLOG/</id>
+  
+  <author>
+    <name>WSNBB0345</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://wsnbb0345.github.io/WZYBLOG/2025/09/14/hello-world/"/>
+    <id>https://wsnbb0345.github.io/WZYBLOG/2025/09/14/hello-world/</id>
+    <published>2025-09-14T14:54:54.598Z</published>
+    <updated>2025-09-14T14:54:54.598Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端技术分享</title>
+    <link href="https://wsnbb0345.github.io/WZYBLOG/2025/09/14/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <id>https://wsnbb0345.github.io/WZYBLOG/2025/09/14/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</id>
+    <published>2025-09-14T12:46:14.000Z</published>
+    <updated>2025-09-14T14:54:54.598Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="现代前端开发趋势与实践"><a href="#现代前端开发趋势与实践" class="headerlink" title="现代前端开发趋势与实践"></a>现代前端开发趋势与实践</h2><p>在快速发展的前端领域，新技术层出不穷。作为前端开发者，我们需要跟上时代步伐，同时也要理性选择适合项目的技术栈。</p><h3 id="🚀-2025年值得关注的前端趋势"><a href="#🚀-2025年值得关注的前端趋势" class="headerlink" title="🚀 2025年值得关注的前端趋势"></a>🚀 2025年值得关注的前端趋势</h3><h4 id="1-框架发展"><a href="#1-框架发展" class="headerlink" title="1. 框架发展"></a>1. <strong>框架发展</strong></h4><ul><li><strong>React 18+</strong>: 并发特性让用户体验更加流畅</li><li><strong>Vue 3</strong>: Composition API 带来更好的代码组织方式</li><li><strong>Svelte&#x2F;SvelteKit</strong>: 编译时优化，运行时性能出色</li></ul><h4 id="2-构建工具进化"><a href="#2-构建工具进化" class="headerlink" title="2. 构建工具进化"></a>2. <strong>构建工具进化</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Vite - 极速的开发体验</span></span><br><span class="line">npm create vite@latest my-app</span><br><span class="line"></span><br><span class="line"><span class="comment"># Turbo - 企业级的 monorepo 解决方案</span></span><br><span class="line">npx create-turbo@latest</span><br></pre></td></tr></table></figure><h4 id="3-CSS-新特性"><a href="#3-CSS-新特性" class="headerlink" title="3. CSS 新特性"></a>3. <strong>CSS 新特性</strong></h4><ul><li><strong>Container Queries</strong>: 响应式设计的新突破</li><li><strong>CSS Grid &amp; Flexbox</strong>: 现代布局的基石</li><li><strong>CSS-in-JS</strong>: 组件化样式管理</li></ul><h3 id="💡-实用开发技巧"><a href="#💡-实用开发技巧" class="headerlink" title="💡 实用开发技巧"></a>💡 实用开发技巧</h3><h4 id="JavaScript-ES2024-新特性"><a href="#JavaScript-ES2024-新特性" class="headerlink" title="JavaScript ES2024 新特性"></a>JavaScript ES2024 新特性</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 顶层 await</span></span><br><span class="line"><span class="keyword">const</span> data = <span class="keyword">await</span> <span class="title function_">fetch</span>(<span class="string">&#x27;/api/data&#x27;</span>).<span class="title function_">then</span>(<span class="function"><span class="params">r</span> =&gt;</span> r.<span class="title function_">json</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// 私有字段和方法</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span> &#123;</span><br><span class="line">  #privateField = <span class="string">&#x27;secret&#x27;</span>;</span><br><span class="line">  #<span class="title function_">privateMethod</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="variable language_">this</span>.#privateField;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 可选链和空值合并</span></span><br><span class="line"><span class="keyword">const</span> userName = user?.<span class="property">profile</span>?.<span class="property">name</span> ?? <span class="string">&#x27;Anonymous&#x27;</span>;</span><br></pre></td></tr></table></figure><h4 id="React-Hooks-最佳实践"><a href="#React-Hooks-最佳实践" class="headerlink" title="React Hooks 最佳实践"></a>React Hooks 最佳实践</h4><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自定义 Hook 示例</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">useLocalStorage</span>(<span class="params">key, initialValue</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> [storedValue, setStoredValue] = <span class="title function_">useState</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="keyword">const</span> item = <span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">getItem</span>(key);</span><br><span class="line">      <span class="keyword">return</span> item ? <span class="title class_">JSON</span>.<span class="title function_">parse</span>(item) : initialValue;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">      <span class="keyword">return</span> initialValue;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">setValue</span> = (<span class="params">value</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="title function_">setStoredValue</span>(value);</span><br><span class="line">      <span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">setItem</span>(key, <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(value));</span><br><span class="line">    &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> [storedValue, setValue];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="🛠️-推荐工具链"><a href="#🛠️-推荐工具链" class="headerlink" title="🛠️ 推荐工具链"></a>🛠️ 推荐工具链</h3><ol><li><p><strong>开发环境</strong></p><ul><li>VS Code + 插件生态</li><li>Chrome DevTools</li><li>React Developer Tools</li></ul></li><li><p><strong>代码质量</strong></p><ul><li>ESLint + Prettier</li><li>Husky + lint-staged</li><li>TypeScript</li></ul></li><li><p><strong>测试</strong></p><ul><li>Jest + React Testing Library</li><li>Cypress (E2E)</li><li>Storybook (组件测试)</li></ul></li></ol><h3 id="🎯-学习建议"><a href="#🎯-学习建议" class="headerlink" title="🎯 学习建议"></a>🎯 学习建议</h3><p>对于前端新手：</p><ol><li><strong>夯实基础</strong>: HTML, CSS, JavaScript 是根本</li><li><strong>选择框架</strong>: React 或 Vue 任选其一深入学习</li><li><strong>实战项目</strong>: 通过项目巩固理论知识</li><li><strong>关注社区</strong>: 关注技术博客和开源项目</li></ol><p>对于有经验的开发者：</p><ol><li><strong>深入原理</strong>: 理解框架底层实现</li><li><strong>性能优化</strong>: 掌握各种优化技巧</li><li><strong>工程化</strong>: 构建工具、CI&#x2F;CD、监控等</li><li><strong>跨端技术</strong>: React Native, Electron 等</li></ol><h3 id="🌟-总结"><a href="#🌟-总结" class="headerlink" title="🌟 总结"></a>🌟 总结</h3><p>前端技术更新很快，但核心思想相对稳定。重要的是：</p><ul><li>保持学习热情，但不要盲目追新</li><li>理解技术本质，而非仅仅会用</li><li>关注用户体验，技术服务于产品</li><li>与团队协作，分享知识和经验</li></ul><p>期待与大家一起探讨前端技术的发展！如果你有任何问题或想法，欢迎在评论区交流～ 💬</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;现代前端开发趋势与实践&quot;&gt;&lt;a href=&quot;#现代前端开发趋势与实践&quot; class=&quot;headerlink&quot; title=&quot;现代前端开发趋势与实践&quot;&gt;&lt;/a&gt;现代前端开发趋势与实践&lt;/h2&gt;&lt;p&gt;在快速发展的前端领域，新技术层出不穷。作为前端开发者，我们需要跟上时</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://wsnbb0345.github.io/WZYBLOG/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="前端" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/JavaScript/"/>
+    
+    <category term="React" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/React/"/>
+    
+    <category term="技术" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="https://wsnbb0345.github.io/WZYBLOG/2025/09/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://wsnbb0345.github.io/WZYBLOG/2025/09/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2025-09-14T12:46:03.000Z</published>
+    <updated>2025-09-14T14:54:54.598Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="欢迎来到我的博客！"><a href="#欢迎来到我的博客！" class="headerlink" title="欢迎来到我的博客！"></a>欢迎来到我的博客！</h2><p>大家好！👋 这是我的第一篇博客文章，很高兴能够在这里与大家分享我的想法和经历。</p><h3 id="为什么要写博客？"><a href="#为什么要写博客？" class="headerlink" title="为什么要写博客？"></a>为什么要写博客？</h3><p>写博客对我来说有很多意义：</p><ul><li>📝 <strong>记录学习过程</strong>：记录自己的学习心得和技术成长</li><li>💡 <strong>分享知识</strong>：将学到的知识分享给更多的人</li><li>🤝 <strong>建立联系</strong>：通过博客结识志同道合的朋友</li><li>🎯 <strong>提升自己</strong>：通过写作来梳理和深化自己的理解</li></ul><h3 id="博客内容规划"><a href="#博客内容规划" class="headerlink" title="博客内容规划"></a>博客内容规划</h3><p>在这个博客里，我会分享：</p><ol><li><p><strong>技术文章</strong> 💻</p><ul><li>编程技巧和最佳实践</li><li>新技术的学习心得</li><li>项目开发经验总结</li></ul></li><li><p><strong>生活感悟</strong> 🌟</p><ul><li>日常生活中的思考</li><li>读书心得和观影感想</li><li>旅行记录和美食分享</li></ul></li><li><p><strong>学习笔记</strong> 📚</p><ul><li>在线课程学习笔记</li><li>技术书籍读后感</li><li>会议和讲座总结</li></ul></li></ol><h3 id="感谢大家"><a href="#感谢大家" class="headerlink" title="感谢大家"></a>感谢大家</h3><p>感谢每一位访问我博客的朋友！如果你对我的文章有任何想法或建议，欢迎在评论区留言。让我们一起学习、一起成长！</p><p>期待与大家的交流互动！ 🎉</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;欢迎来到我的博客！&quot;&gt;&lt;a href=&quot;#欢迎来到我的博客！&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的博客！&quot;&gt;&lt;/a&gt;欢迎来到我的博客！&lt;/h2&gt;&lt;p&gt;大家好！👋 这是我的第一篇博客文章，很高兴能够在这里与大家分享我的想法和经历。&lt;/</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://wsnbb0345.github.io/WZYBLOG/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="博客" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="开始" scheme="https://wsnbb0345.github.io/WZYBLOG/tags/%E5%BC%80%E5%A7%8B/"/>
+    
+  </entry>
+  
+</feed>
