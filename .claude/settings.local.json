@@ -14,7 +14,10 @@
       "Bash(npm install:*)",
       "Bash(hexo clean:*)",
       "Bash(hexo generate:*)",
-      "Bash(hexo init:*)"
+      "Bash(hexo init:*)",
+      "Bash(./node_modules/.bin/hexo clean)",
+      "Bash(grep:*)",
+      "Bash(node_modules/.bin/hexo:*)"
     ],
     "deny": [],
     "ask": []
