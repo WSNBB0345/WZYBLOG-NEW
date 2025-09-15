@@ -5,7 +5,11 @@
       "Bash(git pull:*)",
       "Bash(rm:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(hexo server:*)",
+      "Bash(npx hexo clean:*)",
+      "Bash(npx hexo generate:*)",
+      "Bash(git remote set-url:*)"
     ],
     "deny": [],
     "ask": []

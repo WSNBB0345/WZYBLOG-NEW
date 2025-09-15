@@ -13,8 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://WSNBB0345.github.io/WZYBLOG
-root: /WZYBLOG/
+url: https://WSNBB0345.github.io/WZYBLOG-NEW
+root: /WZYBLOG-NEW/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,5 +103,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/WSNBB0345/WZYBLOG.git
+  repo: https://github.com/WSNBB0345/WZYBLOG-NEW.git
   branch: main
