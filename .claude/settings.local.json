@@ -9,7 +9,12 @@
       "Bash(hexo server:*)",
       "Bash(npx hexo clean:*)",
       "Bash(npx hexo generate:*)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(git clone:*)",
+      "Bash(npm install:*)",
+      "Bash(hexo clean:*)",
+      "Bash(hexo generate:*)",
+      "Bash(hexo init:*)"
     ],
     "deny": [],
     "ask": []
